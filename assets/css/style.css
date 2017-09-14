@@ -1,25 +1,95 @@
 
-* {
-	box-sizzing: border-box;
-							
-/*							width: 600px;
-*//*							margin:  0 auto 0 auto;
-*//*							padding: auto;
-*/}
 
-	/*!!  NAVAGATION BAR !!*/
+		/*  NAVAGATION BAR  */
 
 .topnav {
 	background-color: white;					
-	border-color: grey;
+	border-color: #BEBEBE;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
-						
 }
 
-	/*!!  NAVAGATION BAR END !!*/
+#name {
+	padding:  30px;
+	color: white;
+	background-color: #009999;
+	width: 200px;
+	font-size: 35px;
+	display: block;
+	margin-left: 15%;
+}
+
+nav {
+	float: right;
+	margin-top: -60px;
+	margin-right: 15%; 
+}
+
+a {
+	text-decoration: none;
+	color: #BEBEBE;
+	font-size: 25px;
+}
+
+		/*  NAVAGATION BAR END  */
 
 
+		/*  ABOUT ME CONTENT  */
+
+
+.content {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+h2 {
+	color: #009999;
+}
+
+.about_me {
+	width: 600px;
+	margin:  0 auto 0 auto;
+	padding: 20px;
+	border-width: 30px;
+	border-color: grey;
+	float: left;
+
+}
+		/*  END ABOUT ME CONTENT  */
+
+
+		/* 	CONTACT ME CONTENT  */
+
+#contact-me img {
+	width: 42px;
+	height: 42px;
+	border: 0;
+}
+
+		/* 	CONTACT ME CONTENT  */
+
+
+		/*  FOOTER */
+
+footer {
+	clear:both;
+	width: 100%;
+	background-color: #009999;
+	text-align: center;
+/*	margin:  0 auto 0 auto;
+	/*display: block;*/
+}
+		/*  END FOOTER  */
+
+
+		/*  NOTES  */
+
+/*.container {
+	width: 600px;
+	margin:  0 auto 0 auto;
+	padding: 20px;
+}*/
 
 
 /*.wrapper {
@@ -37,66 +107,9 @@
 	height: 5px;
 }*/
 
-#name {
-	padding:  30px;
-	color: white;
-	background-color: #009999;
-	width: 200px;
-	font-size: 35px;
-	display: block;
-}
 
-nav {
-	float: right;
-	margin-top: -60px;
-	margin-right: 0px; 
-}
-
-a {
-	text-decoration: none;
-	color: grey;
-	font-size: 25px;
-}
-
-/*.container {
-	width: 600px;
-	margin:  0 auto 0 auto;
-	padding: 20px;
-}*/
-
-h2 {
-	color: #009999;
-}
-
-.about_me {
-	width: 600px;
-	margin:  0 auto 0 auto;
-	padding: 20px;
-	border-width: 30px;
-	border-color: grey;
-	float: left;
-
-}
-
-.main-content {
-	max-width: 960px;
-	margin: 0 auto;
-/*	flex: 1 0 auto;
-*/}
-
-footer {
-	clear: both;
-	width: 100%;
-/*	margin:  0 auto 0 auto;
-	/*display: block;*/
-}
-
-
-#contact-me img {
-	width: 42px;
-	height: 42px;
-	border: 0;
-}
-
-
+/*							width: 600px;
+*//*							margin:  0 auto 0 auto;
+*//*							padding: auto;
+*/
 
