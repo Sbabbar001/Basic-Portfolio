@@ -39,30 +39,80 @@ a {
 
 		
 		/*  BACKGROUND   */
+html, body {
+  height: 100%;
+}
 body {
+	display: flex;
+    flex-direction: column;
 	background-image: url(http://designwoop.com/uploads/2012/10/subtle_background_textures_14.jpg);
-
+	margin: 0;
+	padding: 0;
 }
 
 		/*  BACKGROUND END  */
+.mainContent {
+	flex: 1 0 auto;
+}
 
 		/*  ABOUT ME CONTENT  */
 
-.aboutMeContent {
-
+.aboutMeSection {
+	float: left; 
+	background-color: white;										
+	border: 1px solid #BEBEBE;
+	width: 650px;
+	margin-left: 15%;
+	margin-top: 2%;
 }
 
-.content {
-	/*max-width: 960px;
+.sectionContainer {
+	background-color: white;										
+	border-bottom: 1px solid #BEBEBE;
+	width: 85%;
+	margin: 0 auto 0 auto;
+}
+
+#imgText {
+	float: left;
+	margin-right: 15px;
+	width: 35%;	
+}
+
+#profilePhoto {
+	width: 100%;
+}
+
+p {
+	margin-right: 5%;
+	color: #BEBEBE;
+	font-size: 20px;
+}
+
+.Wrapper {
+	margin: 20px 50px;
+}
+
+/*#profilePhoto {
+	height: 35%;
+	width: 35%;
+}*/
+/*#aboutMe {
+
+}*/
+
+/*.content {
+	max-width: 960px;
 	margin: 0 auto;
-*/}
+}*/
 
 
 h2 {
 	color: #009999;
+	font-size: 30px;
 }
 
-.about_me {
+/*.about_me {
 	width: 600px;
 	margin:  0 auto 0 auto;
 	padding: 20px;
@@ -70,16 +120,29 @@ h2 {
 	border-color: grey;
 	float: left;
 
-}
+}*/
 		/*  END ABOUT ME CONTENT  */
 
 
 		/* 	CONTACT ME CONTENT  */
+#contact-me {
+	margin-top: 2%;
+	width: 270px;
+	float: right;
+	background: white;
+	border: 1px solid #BEBEBE;
+	margin-right: 15%;
+}
 
 #contact-me img {
 	width: 42px;
 	height: 42px;
 	border: 0;
+	margin: 0 6px; 
+}
+
+#contact-me h2 {
+	font-size: 28px;
 }
 
 		/* 	CONTACT ME CONTENT  */
@@ -88,17 +151,13 @@ h2 {
 		/*  FOOTER */
 
 footer {
-	position: fixed;
-	right: 0; 
-	bottom: 0;
-	left: 0;
 	clear:both;
-	width: 100%;
 	background-color: #888888;
 	text-align: center;
 	color: #BEBEBE;
 	padding: 20px;
 	border-top: 4px solid #009999;
+	margin-top: 2%;
 /*	margin:  0 auto 0 auto;
 	/*display: block;*/
 }
