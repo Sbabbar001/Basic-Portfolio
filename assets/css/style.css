@@ -93,18 +93,7 @@ p {
 	margin: 20px 50px;
 }
 
-/*#profilePhoto {
-	height: 35%;
-	width: 35%;
-}*/
-/*#aboutMe {
 
-}*/
-
-/*.content {
-	max-width: 960px;
-	margin: 0 auto;
-}*/
 
 
 h2 {
@@ -112,15 +101,7 @@ h2 {
 	font-size: 30px;
 }
 
-/*.about_me {
-	width: 600px;
-	margin:  0 auto 0 auto;
-	padding: 20px;
-	border-width: 30px;
-	border-color: grey;
-	float: left;
 
-}*/
 		/*  END ABOUT ME CONTENT  */
 
 
@@ -148,7 +129,66 @@ h2 {
 		/* 	CONTACT ME CONTENT  */
 
 
-		/*  FOOTER */
+		/* PORTFOLIO CONTENT  */
+.portpics {
+    float: left;
+    margin-bottom: 20px;
+    width: 47%;
+    position: relative;
+}
+
+
+.portpics p {
+    background-color: teal;
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+}
+
+
+
+#imageholder {
+    margin-left: 35px;
+}
+/*every odd element inside the class portpics inside the id imageholder should have a margin to the right of 10px*/
+#imageholder .portpics:nth-child(odd) {
+    margin-right: 10px;
+}
+
+#imageholder .portpics:nth-child(even) {
+    margin-left: 10px;
+}
+
+.portimage {
+    width: 100%;
+}
+
+		/* END PORTFOLIO CONTENT */
+		
+		/* CONTACT FORM */
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+}
+
+input[type=submit] {
+	background-color: #009999;
+}
+
+
+		/* END CONTACT FORM */
+		
+		/*  FOOTER  */
 
 footer {
 	clear:both;
@@ -166,6 +206,28 @@ footer {
 
 		/*  NOTES  */
 
+/*#profilePhoto {
+	height: 35%;
+	width: 35%;
+}*/
+/*#aboutMe {
+
+}*/
+
+/*.content {
+	max-width: 960px;
+	margin: 0 auto;
+}*/
+
+/*.about_me {
+	width: 600px;
+	margin:  0 auto 0 auto;
+	padding: 20px;
+	border-width: 30px;
+	border-color: grey;
+	float: left;
+
+}*/
 /*.container {
 	width: 600px;
 	margin:  0 auto 0 auto;
