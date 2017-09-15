@@ -15,7 +15,6 @@
 	background-color: #009999;
 	width: 200px;
 	font-size: 35px;
-	display: block;
 	margin-left: 15%;
 }
 
@@ -23,6 +22,11 @@ nav {
 	float: right;
 	margin-top: -60px;
 	margin-right: 15%; 
+	text-align: center;
+/*	margin-bottom: 25%; */	
+/*  bottom: 20%; */
+/* NOTE bottom margin will not work in this case ... not sure why?
+*/
 }
 
 a {
@@ -33,14 +37,25 @@ a {
 
 		/*  NAVAGATION BAR END  */
 
+		
+		/*  BACKGROUND   */
+body {
+	background-image: url(http://designwoop.com/uploads/2012/10/subtle_background_textures_14.jpg);
+
+}
+
+		/*  BACKGROUND END  */
 
 		/*  ABOUT ME CONTENT  */
 
+.aboutMeContent {
+
+}
 
 .content {
-	max-width: 960px;
+	/*max-width: 960px;
 	margin: 0 auto;
-}
+*/}
 
 
 h2 {
@@ -73,10 +88,17 @@ h2 {
 		/*  FOOTER */
 
 footer {
+	position: fixed;
+	right: 0; 
+	bottom: 0;
+	left: 0;
 	clear:both;
 	width: 100%;
-	background-color: #009999;
+	background-color: #888888;
 	text-align: center;
+	color: #BEBEBE;
+	padding: 20px;
+	border-top: 4px solid #009999;
 /*	margin:  0 auto 0 auto;
 	/*display: block;*/
 }
